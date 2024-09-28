@@ -2,6 +2,13 @@
 tittle: "Prop drilling"
 ---
 
+# How to work
+
+git clone https://github.com/usuario/nombre-repo.git
+cd prop-drilling
+docker build -t vue-task-manager .
+docker run -p 3000:3000 vue-task-manager
+
 
 # Prop Drilling
 
